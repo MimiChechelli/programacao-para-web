@@ -1,13 +1,13 @@
 # Nome do trabalho
-## Ótima descrição
+## Descrição
 Trabalho ótimo
 
-## Ótimos desenvolvedores:
-João Lucas
-Matias Fuks
-Michelli
-Roberto gabriel
-Ruan
+## Desenvolvedores:
+- João Lucas
+- Matias Fuks
+- Michelli
+- Roberto gabriel
+- Ruan
 
 ## Execução:
 Clone no repositorio 

@@ -6,7 +6,7 @@ Trabalho ótimo
 - João Lucas
 - Matias Fuks
 - Michelli
-- Roberto gabriel
+- Roberto Gabriel
 - Ruan
 
 ## Execução:

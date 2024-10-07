@@ -1,6 +1,6 @@
-# Nome do trabalho
+# Twitter 
 ## Descrição
-Trabalho ótimo
+Recriação do Twitter.
 
 ## Desenvolvedores:
 - João Lucas

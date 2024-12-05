@@ -5,11 +5,11 @@ Alteração do projeto para desenvolver um site semelhante ao Medium. Site de co
 
 # Equipe:
 
-João Lucas
+João Cardoso
 Matias Fuks
 Michelli
 Roberto Gabriel
-Ruan
+Ruan Lucas
 
 
 ## Setup

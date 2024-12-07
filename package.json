@@ -16,7 +16,8 @@
     "prisma:generate": "npx prisma generate",
     "prisma:migration:run": "npx prisma migrate dev --name run",
     "prisma:migration:create": "npx prisma migrate dev --name",
-    "prisma:seed": "ts-node ./src/seed/index.seed.ts"
+    "prisma:seed": "ts-node ./src/seed/index.seed.ts",
+    "start:migrate:prod": "prisma migrate deploy && npm run start:prod"
   },
   "dependencies": {
     "@nestjs/common": "^10.0.0",

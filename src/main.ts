@@ -6,6 +6,7 @@ import { env } from './env';
 
 async function main() {
   const app = await NestFactory.create<NestExpressApplication>(AppModule);
+  app.enableCors();
 
   const config = new DocumentBuilder()
     .setTitle('Medium')

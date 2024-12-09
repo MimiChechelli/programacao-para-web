@@ -1,0 +1,35 @@
+.sign-up {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  .box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    min-width: 400px;
+    padding: 30px;
+    border-radius: 10px;
+    border: 1px solid #eaeaea;
+
+    .header {
+      margin-bottom: 30px;
+
+      h1 {
+        color: #141414;
+      }
+
+      p {
+        color: #1c1c1c;
+      }
+    }
+
+    .form {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+  }
+}

@@ -28,7 +28,23 @@ export class PostsService {
 
   // Publico, listagem de postagens que qualquer um pode ver
   async findAll() {
-    return await this.prismaService.posts.findMany();
+    return await this.prismaService.posts.findMany({
+      include: {
+        user: {
+          select: {
+            name: true,
+          },
+        },
+        Likes: {
+          select: {
+            user_id: true,
+          },
+        },
+      },
+      orderBy: {
+        created_at: 'desc',
+      },
+    });
   }
 
   // Publico, visualização de uma postagem que qualquer um pode ver
@@ -38,6 +54,11 @@ export class PostsService {
     const post = await this.prismaService.posts.findUnique({
       where: { id },
       include: {
+        user: {
+          select: {
+            name: true,
+          },
+        },
         Comments: {
           include: {
             user: {

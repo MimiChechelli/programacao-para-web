@@ -5,11 +5,10 @@ Alteração do projeto para desenvolver um site semelhante ao Medium. Site de co
 
 # Equipe:
 
-João Cardoso
-Matias Fuks
-Michelli
-Roberto Gabriel
-Ruan Lucas
+João Cardoso - 23202068
+Michelli - 23103132
+Roberto Gabriel - 23100739
+Ruan Lucas - 23205947
 
 
 ## Setup
